@@ -12,6 +12,8 @@ import androidx.fragment.app.Fragment;
 public class DescriptionDetailFragment extends Fragment {
 
     private long detailDescID;
+    private int simple;
+    //hello
 
     @Override
     public void onCreate(Bundle savedInstanceState)
@@ -19,6 +21,7 @@ public class DescriptionDetailFragment extends Fragment {
         super.onCreate(savedInstanceState);
         if(savedInstanceState!=null)
         {
+            simple =simple+1;
             detailDescID=savedInstanceState.getLong("detailDescID");
         }
     }
@@ -49,7 +52,7 @@ public class DescriptionDetailFragment extends Fragment {
             img.setContentDescription(description.getName());
         }
     }
-
+//check for this
 
     @Override
     public void onSaveInstanceState(Bundle savedInstanceState)
