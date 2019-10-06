@@ -12,8 +12,7 @@ import androidx.fragment.app.Fragment;
 public class DescriptionDetailFragment extends Fragment {
 
     private long detailDescID;
-    private int simple;
-    //hello
+
 
     @Override
     public void onCreate(Bundle savedInstanceState)
@@ -21,7 +20,7 @@ public class DescriptionDetailFragment extends Fragment {
         super.onCreate(savedInstanceState);
         if(savedInstanceState!=null)
         {
-            simple =simple+1;
+
             detailDescID=savedInstanceState.getLong("detailDescID");
         }
     }
@@ -42,9 +41,9 @@ public class DescriptionDetailFragment extends Fragment {
         {
             Description description=Description.descriptionArray[(int)detailDescID];
 
-            TextView title=(TextView)view.findViewById(R.id.textView4);
-            TextView desc=(TextView)view.findViewById(R.id.textView3);
-            ImageView img=(ImageView)view.findViewById(R.id.imageView);
+            TextView title= view.findViewById(R.id.textView4);
+            TextView desc=view.findViewById(R.id.textView3);
+            ImageView img=view.findViewById(R.id.imageView);
 
             title.setText(description.getName());
             desc.setText(description.getDesc());
@@ -52,7 +51,7 @@ public class DescriptionDetailFragment extends Fragment {
             img.setContentDescription(description.getName());
         }
     }
-//check for this
+
 
     @Override
     public void onSaveInstanceState(Bundle savedInstanceState)
@@ -60,7 +59,7 @@ public class DescriptionDetailFragment extends Fragment {
         savedInstanceState.putLong("detailDescID",detailDescID);
     }
 
-    public void setDetailDescID(long id)
+    void setDetailDescID(long id)
     {
         this.detailDescID=id;
     }
