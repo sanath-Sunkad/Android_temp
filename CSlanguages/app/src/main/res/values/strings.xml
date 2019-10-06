@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name">CSlanguages</string>
+    <string-array name="languages">
+        <item>Java</item>
+        <item>Cpp</item>
+        <item>Android</item>
+        <item>.NET</item>
+        <item>HTML</item>
+        <item>CSS</item>
+        <item>JS</item>
+        <item>Python</item>
+        <item>React</item>
+        <item>Java</item>
+        <item>Cpp</item>
+        <item>Android</item>
+        <item>.NET</item>
+        <item>HTML</item>
+        <item>CSS</item>
+        <item>JS</item>
+        <item>Python</item>
+        <item>React</item>
+        <item>Java</item>
+        <item>Cpp</item>
+        <item>Android</item>
+        <item>.NET</item>
+        <item>HTML</item>
+        <item>CSS</item>
+        <item>JS</item>
+        <item>Python</item>
+        <item>React</item>
+    </string-array>
+    <string-array name="languageDesc">
+        <item>Java:about this language</item>
+        <item>Cpp:about this language</item>
+        <item>Android:about this language</item>
+        <item>.NET:about this language</item>
+        <item>HTML:about this language</item>
+        <item>CSS:about this language</item>
+        <item>JS:about this language</item>
+        <item>Python:about this language</item>
+        <item>React:about this language</item>
+        <item>Java:about this language</item>
+        <item>Cpp:about this language</item>
+        <item>Android:about this language</item>
+        <item>.NET:about this language</item>
+        <item>HTML:about this language</item>
+        <item>CSS:about this language</item>
+        <item>JS:about this language</item>
+        <item>Python:about this language</item>
+        <item>React:about this language</item>
+        <item>Java:about this language</item>
+        <item>Cpp:about this language</item>
+        <item>Android:about this language</item>
+        <item>.NET:about this language</item>
+        <item>HTML:about this language</item>
+        <item>CSS:about this language</item>
+        <item>JS:about this language</item>
+        <item>Python:about this language</item>
+        <item>React:about this language</item>
+    </string-array>
+    <array name="langImg">
+        <item>@drawable/java</item>
+        <item>@drawable/cpp</item>
+        <item>@drawable/android</item>
+        <item>@drawable/dotnet</item>
+        <item>@drawable/html</item>
+        <item>@drawable/css</item>
+        <item>@drawable/js</item>
+        <item>@drawable/python</item>
+        <item>@drawable/react</item>
+        <item>@drawable/java</item>
+        <item>@drawable/cpp</item>
+        <item>@drawable/android</item>
+        <item>@drawable/dotnet</item>
+        <item>@drawable/html</item>
+        <item>@drawable/css</item>
+        <item>@drawable/js</item>
+        <item>@drawable/python</item>
+        <item>@drawable/react</item>
+        <item>@drawable/java</item>
+        <item>@drawable/cpp</item>
+        <item>@drawable/android</item>
+        <item>@drawable/dotnet</item>
+        <item>@drawable/html</item>
+        <item>@drawable/css</item>
+        <item>@drawable/js</item>
+        <item>@drawable/python</item>
+        <item>@drawable/react</item>
+
+    </array>
+</resources>
