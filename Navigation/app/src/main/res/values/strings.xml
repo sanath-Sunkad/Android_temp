@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Navigation</string>
+    <string name="title_top">Top Level Fragment</string>
+    <string-array name="PageThree">
+        <item>br</item>
+        <item>el</item>
+        <item>ch</item>
+        <item>li</item>
+    </string-array>
+    <string-array name="titles">
+        <item>Home</item>
+        <item>about</item>
+        <item>sanath</item>
+        <item>Programming</item>
+    </string-array>
+
+    <string name="open_drawer">Open Drawer</string>
+    <string name="close_drawer">Close Drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="tick">Accessibility</string>
+
+
+
+    <string name="T1">Tech Team</string>
+    <string name="T2">The cheetah (Acinonyx jubatus; /ˈtʃiːtə/) is a large cat of the subfamily Felinae that occurs in North, Southern and East " +
+                "Africa, and a few localities in Iran. It inhabits a variety of mostly arid habitats like dry forests, scrub forests, " +
+                "and savannahs. The species is IUCN Red Listed as Vulnerable, as it suffered a substantial decline in its historic range in the 20th century due to habitat" +
+                " loss, poaching for the illegal pet trade, and conflict with humans. By 2016, the glob" +
+                "al cheetah population has been estimated at approximately 7,100 individuals in the wild. Several African countries have taken steps to im" +
+                "prove cheetah conservation measures.</string>
+
+
+</resources>

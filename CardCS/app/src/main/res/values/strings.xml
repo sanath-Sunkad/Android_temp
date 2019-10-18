@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">CardCS</string>
+
+    <string-array name="languages">
+        <item>Java</item>
+        <item>Cpp</item>
+        <item>Android</item>
+        <item>.NET</item>
+        <item>HTML</item>
+        <item>CSS</item>
+        <item>JS</item>
+        <item>Python</item>
+        <item>React</item>
+    </string-array>
+
+    <array name="langImg">
+        <item>@drawable/java</item>
+        <item>@drawable/cpp</item>
+        <item>@drawable/android</item>
+        <item>@drawable/dotnet</item>
+        <item>@drawable/html</item>
+        <item>@drawable/css</item>
+        <item>@drawable/js</item>
+        <item>@drawable/python</item>
+        <item>@drawable/react</item>
+    </array>
+</resources>

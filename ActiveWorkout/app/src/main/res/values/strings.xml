@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ActiveWorkout</string>
+    <string name="sets">Sets:</string>
+    <string name="reps">Reps:</string>
+    <string name="example_description">example Description</string>
+    <string name="example_workout_title">Example Workout Title</string>
+    <string name="_10">10</string>
+    <string name="_20">20</string>
+    <string-array name="MainActivityList">
+        <item>Workouts</item>
+        <item>Add Workouts</item>
+        <item>Online Workouts</item>
+    </string-array>
+</resources>
